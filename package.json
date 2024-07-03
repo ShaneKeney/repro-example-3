@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "npx expo start -c --go",
-    "dev:client": "npx expo start -c --dev-client --scheme reliantdev",
+    "dev:client": "npx expo start -c --dev-client --scheme example3dev",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
@@ -67,9 +67,9 @@
     "react-test-renderer": "18.2.0",
     "typescript": "~5.3.3"
   },
-  "name": "expo-nativewind",
+  "name": "repro-example-3",
   "main": "expo-router/entry",
-  "owner": "reliant-capital",
+  "owner": "rally2",
   "version": "1.0.0",
   "private": true
 }
