@@ -1,0 +1,59 @@
+{
+  "cli": {
+    "version": ">= 0.52.0",
+    "requireCommit": true
+  },
+  "build": {
+    "development": {
+      "distribution": "internal",
+      "developmentClient": true,
+      "channel": "dev.expo51.v2.2",
+      "env": {
+        "APP_ENV": "development"
+      },
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "dev:simulator": {
+      "extends": "development",
+      "ios": {
+        "simulator": true
+      }
+    },
+    "staging": {
+      "distribution": "store",
+      "channel": "staging.expo51.v2.2",
+      "env": {
+        "APP_ENV": "staging"
+      }
+    },
+    "production:sim": {
+      "distribution": "internal",
+      "channel": "prod.expo51.v2.2",
+      "env": {
+        "APP_ENV": "production"
+      },
+      "ios": {
+        "simulator": true
+      }
+    },
+    "production": {
+      "distribution": "store",
+      "channel": "prod.expo51.v2.2",
+      "env": {
+        "APP_ENV": "production"
+      }
+    },
+    "production:apk": {
+      "extends": "production",
+      "android": {
+        "buildType": "apk"
+      }
+    }
+  },
+  "submit": {
+    "staging": {},
+    "production": {}
+  }
+}
