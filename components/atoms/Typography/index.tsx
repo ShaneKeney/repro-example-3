@@ -14,7 +14,7 @@ import { tv, type VariantProps } from 'tailwind-variants';
  * Black or Heavy: 900
  */
 export const variants = tv({
-  base: 'color-text dark:color-text-dark font-geist-regular text-body-14',
+  base: 'font-geist-regular text-body-14 color-text dark:color-text-dark',
   variants: {
     font: {
       'geist-regular': 'font-geist-regular',

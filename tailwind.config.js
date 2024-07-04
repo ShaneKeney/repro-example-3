@@ -8,7 +8,7 @@ module.exports = {
     './hooks/**/*.{js,jsx,ts,tsx}',
     './utils/**/*.{js,jsx,ts,tsx}'
   ],
-  darkMode: 'class',
+  darkMode: 'selector',
   presets: [require('nativewind/preset')],
   theme: {
     extend: {

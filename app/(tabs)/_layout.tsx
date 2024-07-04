@@ -15,7 +15,7 @@ export default function TabsLayout() {
   const { top } = useSafeAreaInsets();
   const { isDarkMode } = useTheme();
 
-  console.log(isDarkMode);
+  console.log('isDarkMode: ', isDarkMode);
   return (
     <Tabs
       screenOptions={{
